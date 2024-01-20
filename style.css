@@ -137,11 +137,7 @@ button img{
   font-size:2.1vw;
 }
 
-.cat-container {
-  width: 85%; 
- 
-  
-}
+
 .cat-container h6,.courses-container h6,.instructor-container h6{
   margin-left: 42%;
 }
@@ -150,16 +146,16 @@ button img{
 }
 
 .cat-container,.courses-container,.instructor-container {
-  margin-top: 5%; /* Center the container */
+  margin-top: 5%; 
 }
 
 .img-container {
   display: flex;
-  margin-top: 20px; /* Adjust the margin as needed */
+  margin-top: 20px; 
 }
 
 .left-imgs {
-  flex: 60%; /* Take 60% of the container */
+  flex: 60%; 
   display: flex;
   flex-direction: column;
 }
@@ -186,7 +182,7 @@ button img{
 }
 
 .right-imgs {
-  flex: 40%; /* Take 40% of the container */
+  flex: 40%; 
 }
 
 .right-imgs img {
@@ -203,11 +199,11 @@ button img{
 }
 
 .card-img-top {
-  transition: transform 0.3s ease-in-out; /* Smooth transition for the zoom effect */
+  transition: transform 0.3s ease-in-out; 
 }
 
 .card:hover .card-img-top {
-  transform: scale(1.1); /* Zoom in by 10% on hover (adjust the scale factor as needed) */
+  transform: scale(1.1); 
    
 }
 
@@ -237,5 +233,14 @@ button img{
 .blue-card{
   background-color: #badbf5;
   
+}
+
+.text-muted{
+  margin-bottom: 10%;
+  background-color: #74C0FC;
+ padding: 2%;
+}
+.instructor-container .text-muted {
+  color: white !important;
 }
 
